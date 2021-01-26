@@ -24,6 +24,6 @@ func TestSum(t *testing.T) {
 		if got != want {
 			t.Errorf("got %d want %d given, %v", got, want, numbers)
 		}
-
 	})
+
 }
